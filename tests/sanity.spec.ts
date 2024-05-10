@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('Sanity Test', async ({ page }) => {
   await page.goto('https://digital.ivy.co.il/');
   await page.getByRole('link', { name: 'התחברות ' }).click();
   await page.getByLabel('שלום לך! על מנת להתקדם עם התהליך, מה מספר הטלפון שלך? *').click();
