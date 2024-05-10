@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { ai } from '@zerostep/playwright'
 
-test('has title', async ({ page }) => {
+test('Submitting "Contact Us" form', async ({ page }) => {
 
   const zeroStepArgs = {page, test};
 
